@@ -1,0 +1,35 @@
+---
+title: "群晖 NAS 搭建指南"
+titleEn: "Synology NAS Setup Guide"
+description: "从零开始配置群晖 NAS，打造家庭数据中心"
+descriptionEn: "Setting up Synology NAS from scratch as a home data center"
+date: "2026-05-06"
+---
+
+# 群晖 NAS 搭建指南
+
+NAS（Network Attached Storage）是家庭数据中心的理想选择。
+
+## 硬件选择
+
+| 型号 | 盘位 | 适合场景 |
+|------|------|----------|
+| DS224+ | 2 | 入门备份 |
+| DS423+ | 4 | 家庭媒体 |
+| DS923+ | 4 | 高级用户 |
+
+## 基础配置
+
+```bash
+# 通过 SSH 连接到 NAS
+ssh admin@your-nas-ip
+
+# 查看存储池状态
+sudo synodisk --info
+```
+
+## 推荐套件
+
+- **Docker**：容器化管理
+- **Synology Drive**：私有云盘
+- **Moments**：照片管理

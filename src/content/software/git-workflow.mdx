@@ -1,0 +1,33 @@
+---
+title: "Git 工作流最佳实践"
+titleEn: "Git Workflow Best Practices"
+description: "团队开发中的 Git 分支策略和协作规范"
+descriptionEn: "Git branching strategies and collaboration norms in team development"
+date: "2026-05-06"
+---
+
+# Git 工作流最佳实践
+
+良好的 Git 工作流是团队协作的基础。
+
+## 推荐分支策略
+
+```
+main (production)
+├── develop (integration)
+│   ├── feature/user-auth
+│   ├── feature/payment
+│   └── bugfix/login-error
+├── release/v1.0
+└── hotfix/security-patch
+```
+
+## 提交信息规范
+
+使用 [Conventional Commits](https://www.conventionalcommits.org/) 格式：
+
+```bash
+feat: add user authentication
+fix: resolve login error on mobile
+docs: update API documentation
+```

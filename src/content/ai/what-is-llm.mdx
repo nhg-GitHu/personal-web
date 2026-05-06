@@ -1,0 +1,34 @@
+---
+title: "什么是大语言模型？"
+titleEn: "What is a Large Language Model?"
+description: "深入浅出地了解大语言模型的原理和应用"
+descriptionEn: "Understanding the principles and applications of LLMs"
+date: "2026-05-06"
+---
+
+# 什么是大语言模型？
+
+大语言模型（Large Language Model，简称 LLM）是人工智能领域的一项突破性技术。
+
+## 基本原理
+
+LLM 通过在海量文本数据上进行训练，学习语言的统计规律和语义表示。
+
+```python
+from transformers import pipeline
+
+# 使用 Hugging Face 加载预训练模型
+generator = pipeline("text-generation", model="gpt2")
+result = generator("你好，今天天气", max_length=50)
+print(result[0]["generated_text"])
+```
+
+## 应用场景
+
+- **对话系统**：智能客服、个人助手
+- **内容生成**：文章撰写、代码生成
+- **语义理解**：情感分析、实体识别
+
+## 总结
+
+大语言模型正在改变我们与计算机交互的方式。

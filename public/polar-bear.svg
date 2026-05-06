@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2"/>
+  <!-- ears -->
+  <circle cx="16" cy="14" r="6" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+  <circle cx="48" cy="14" r="6" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- head -->
+  <ellipse cx="32" cy="28" rx="18" ry="16" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- eyes -->
+  <circle cx="25" cy="26" r="2.5" fill="#1e293b"/>
+  <circle cx="39" cy="26" r="2.5" fill="#1e293b"/>
+  <!-- nose -->
+  <ellipse cx="32" cy="32" rx="3" ry="2" fill="#475569"/>
+  <!-- mouth -->
+  <path d="M29 35 Q32 38 35 35" stroke="#475569" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- body -->
+  <ellipse cx="32" cy="50" rx="14" ry="10" fill="white" stroke="#cbd5e1" stroke-width="1.5"/>
+  <!-- AI chip on body -->
+  <rect x="27" y="46" width="10" height="6" rx="1" fill="#0ea5e9"/>
+  <line x1="27" y1="48" x2="24" y2="48" stroke="#0ea5e9" stroke-width="1"/>
+  <line x1="27" y1="50" x2="24" y2="50" stroke="#0ea5e9" stroke-width="1"/>
+  <line x1="37" y1="48" x2="40" y2="48" stroke="#0ea5e9" stroke-width="1"/>
+  <line x1="37" y1="50" x2="40" y2="50" stroke="#0ea5e9" stroke-width="1"/>
+</svg>
